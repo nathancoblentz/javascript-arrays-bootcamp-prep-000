@@ -42,6 +42,12 @@ function accessElementInArray (array, index){
 
 function destructivelyRemoveElementFromBeginningOfArray (array) {
   array=chocolateBars
-  chocolateBars = array.slice(1)
+  
   return array
+}
+
+function removeElementFromBeginningOfArray (array) {
+  array = chocolateBars
+  moreChocolateBars = array.slice(1)
+  return moreChocolateBars
 }
