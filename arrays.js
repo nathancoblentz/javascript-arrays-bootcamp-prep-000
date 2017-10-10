@@ -2,24 +2,24 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 const array = chocolateBars
 var item = "Milky Way"
 
-function addElementToBeginningOfArray(array, item) {
+function addElementToBeginningOfArray(array, element) {
 
-  const moreChocolateBars = [item, ...array]
+  const moreChocolateBars = [element, ...array]
   return moreChocolateBars
 
 }
 
 
-function destructivelyAddElementToBeginningOfArray(array, item) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
 
-  chocolateBars.unshift(item)
+  chocolateBars.unshift(element)
   return array
 
 }
 
-function addElementToEndOfArray(array, item) {
+function addElementToEndOfArray(array, element) {
 
-  const moreChocolateBars = [...array, item]
+  const moreChocolateBars = [...array, element]
   return moreChocolateBars
 
 }
