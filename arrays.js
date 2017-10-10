@@ -16,3 +16,20 @@ function destructivelyAddElementToBeginningOfArray(array, item) {
   return array
 
 }
+
+function addElementToEndOfArray(array, item) {
+
+  const moreChocolateBars = [...array, item]
+  return moreChocolateBars
+
+}
+
+
+function destructivelyAddElementToEndOfArray(array, item) {
+
+  chocolateBars.push(item)
+  return array
+
+}
+
+
