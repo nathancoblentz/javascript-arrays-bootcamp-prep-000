@@ -32,17 +32,17 @@ function destructivelyAddElementToEndOfArray(array, item) {
 
 }
 
-function accessElementInArray (array, index){
+function accessElementInArray (array[i]){
   array=chocolateBars
-  index=array[index]
-  index=3
-  return array[index]
+  i=3
+  return array[i]
 
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array) {
   array=chocolateBars
-  
+  array.shift()
+
   return array
 }
 
