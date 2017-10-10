@@ -38,3 +38,5 @@ function accessElementInArray (array, index){
   i=1
   console.log(array, i)
 }
+
+accessElementInArray (array, 1)
