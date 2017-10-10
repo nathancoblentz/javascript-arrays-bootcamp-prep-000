@@ -31,3 +31,10 @@ function destructivelyAddElementToEndOfArray(array, item) {
   return array
 
 }
+
+function accessElementInArray (array, index){
+  array=chocolateBars
+  index=chocolateBars[i]
+  i=1
+  console.log(array, i)
+}
