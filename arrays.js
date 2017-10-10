@@ -37,7 +37,5 @@ function accessElementInArray (array, index){
   index=array[i]
   i=1
   return array[i]
-  
+
 }
-
-
