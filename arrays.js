@@ -14,4 +14,3 @@ function destructivelyAddElementToBeginningOfArray(array, item) {
   chocolateBars.unshift(item)
 
 }
-
