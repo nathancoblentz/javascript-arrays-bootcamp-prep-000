@@ -5,6 +5,7 @@ var item = "Milky Way"
 function addElementToBeginningOfArray(array, item) {
 
   const moreChocolateBars = [item, ...array]
+  return moreChocolateBars
 
 }
 
@@ -12,5 +13,6 @@ function addElementToBeginningOfArray(array, item) {
 function destructivelyAddElementToBeginningOfArray(array, item) {
 
   chocolateBars.unshift(item)
+  return array
 
 }
